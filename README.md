@@ -20,7 +20,7 @@ You will also see any lint errors in the console.
 
 # Key design decisions
 * Reusable components, emphasis on modular reusable code
-* Custom Charts built with D3.js for custom charts
+* Custom charts built with D3
 * TypeScipt for type safety
 * Emphasis on clean and minimalist ui design
 
