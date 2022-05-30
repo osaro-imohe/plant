@@ -26,7 +26,7 @@ You will also see any lint errors in the console.
 
  # Biggest problems
  * Encountered some issues with clashing type definitions with d3. I modified the start scipt in package.json to warn about those errors but still allow compilation. This is defintely something I would fix if given more time.
- * I had some difficulty using d3 to segrated data into individual bins for further rendering. That took me a significant amount of time to get right.
+ * I had some difficulty using d3 to segrate data into individual bins for further rendering. That took me a significant amount of time to get right.
  
  
   # Complaints/Biggest problems
