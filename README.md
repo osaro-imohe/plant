@@ -32,6 +32,7 @@ You will also see any lint errors in the console.
  * Percentage break down on histogram component (a little complicated to implement with d3, didn't have enough time to get around to this).
  * Make all text white on row select in table component (small fix)
  * Better integration with d3's type defs 
+ * Automated tests
  
  
   # Complaints/Biggest problems
