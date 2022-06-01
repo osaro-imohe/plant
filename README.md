@@ -32,7 +32,9 @@ You will also see any lint errors in the console.
  * Percentage break down on histogram component (a little complicated to implement with d3, didn't have enough time to get around to this).
  * Make all text white on row select in table component (small fix)
  * Better integration with d3's type defs 
- * Automated tests
+ * Automated tests with Mocha and Chai, also storybook for custom components.
+ * Better documentation, there currently aren't any docs in this version. I'd love to add more docs to aid in development.
+ * Better code formatting and separation of code, I tried to stick to single-use functions and methods to avoid massive classes and functions.
  
  
   # Complaints/Biggest problems
