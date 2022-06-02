@@ -8,7 +8,7 @@ function Header() {
   const path = window.location.pathname;
   return (
     <Container inline fullWidth justifyContent="space-between">
-      <Text bold text="Claypot 🪴" variant="primary" />
+      <Text bold text="Plant 🪴" variant="primary" />
       <Button
         text={path === '/' ? 'View charts' : 'Dashboard'}
         onClick={() => (path === '/' ? navigate('/charts') : navigate('/'))}
