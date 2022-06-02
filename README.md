@@ -15,27 +15,3 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
-
-
-
-# Key design decisions
-* Reusable components, emphasis on modular reusable code
-* Custom charts built with D3
-* TypeScipt for type safety
-* Emphasis on clean and minimalist ui design
-
- # Biggest problems
- * Encountered some issues with clashing type definitions with d3. I modified the start scipt in package.json to warn about those errors but still allow compilation. This is defintely something I would fix if given more time.
- * I had some difficulty using d3 to segrate data into individual bins for further rendering.
-
- # Possible improvements
- * Percentage break down on histogram component (a little complicated to implement with d3, didn't have enough time to get around to this).
- * Make all text white on row select in table component (small fix)
- * Better integration with d3's type defs 
- * Automated tests with Mocha and Chai, also storybook for custom components.
- * Better documentation, there currently aren't any docs in this version. I'd love to add more docs to aid in development.
- * Better code formatting and separation of code, I tried to stick to single-use functions and methods to avoid massive classes and functions.
- 
- 
-  # Complaints/Biggest problems
-  * No complaints, it was a fun project :)
